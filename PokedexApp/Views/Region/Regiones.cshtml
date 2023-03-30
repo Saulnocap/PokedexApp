@@ -1,0 +1,49 @@
+﻿@model List<ServiceLayer.ViewModels.RegionViewModel>
+
+@{
+    ViewData["Title"] = "Regiones";
+}
+
+
+<div class="container-fluid" style="position: relative;">
+
+    <div class="row">
+        @if (Model == null || Model.Count == 0)
+        {
+            <div style="text-align: center;">
+                <h2>Lo sentimos, no hay Regiones agregadas en <img style="height: 140px; width: 140px;" src="~/LogoPagina.png" /> aun.</h2>
+                <a class="btn btn-outline-success" style="text-align:center; margin:-20px 20px 20px 20px;" asp-controller="Region" asp-action="Create"><h2>¡Agrega una Region ya!</h2></a>
+            </div>
+            <img alt="Pika pika?" src="~/Pikachu.png" style="height:300px; width:300px; margin:-40px auto;" />
+        }
+        else
+        {
+            <div class="d-inline-block">
+                <div style="text-align:center;">
+                    <a asp-controller="Region" asp-action="Create" style="text-align: center; margin-bottom: px; padding-left: 300px; padding-right: 300px;" class="btn btn-outline-success">¡Agregar Region!</a>
+                </div>
+                <h2 style="text-align: center; padding: 20px;">Lista de Regiones</h2>
+
+            </div>
+            @foreach (ServiceLayer.ViewModels.RegionViewModel item in Model)
+            {
+
+                <div class="col-10 style="text-align: center;">
+                    <div style="margin-left: 365px; margin-right:185px;" class="card shadow-sm border-2 mb-3">
+                        <div class="card-body">
+                            <h3 style="text-align: center;">@item.Name</h3>
+                        </div>
+                        <div style="margin-right: 10px; margin-bottom: 10px;" class="d-flex justify-content-center mt-2 align-items-center">
+                            <div class="btn-group" style=" margin-top: -20px;">
+                                <a asp-controller="Region" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-info">Editar</a>
+                                <a asp-controller="Region" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">Borrar</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            }
+        }
+
+    </div>
+</div>

@@ -1,0 +1,33 @@
+﻿@model ServiceLayer.ViewModels.SaveRegionViewModel
+@{
+    bool edac = Model.Id == 0 ? false : true;
+    ViewData["Title"] = "Guardar Region";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-black text-light">
+                    <h4>@(edac ? $"Editar Region: {Model.Name}": "Agregar una Region")</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-controller="Region" asp-action="@(edac ? "Edit" : "Create")">
+
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label"> Nombre: </label>
+                            <input type="text" asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <input type="hidden" asp-for="Id" />
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                        <a asp-controller="Region" asp-action="Regiones" class="btn btn-warning">Cancelar</a>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

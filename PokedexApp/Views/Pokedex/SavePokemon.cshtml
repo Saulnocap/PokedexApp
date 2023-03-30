@@ -1,0 +1,57 @@
+﻿@model ServiceLayer.ViewModels.SavePokemonViewModel 
+@{
+    bool edac = Model.Id == 0 ? false : true;
+    ViewData["Title"] = "Guardar Pokémon";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-black text-light">
+                    <h4>@(edac ? $"Editar Pokemon: {Model.Name}": "Agregar un Pokemon")</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-controller="Pokedex" asp-action="@(edac ? "Edit" : "Create")">
+
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label"> Nombre: </label>
+                            <input type="text" asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="ImgUrl" class="form-label"> Imagen Url: </label>
+                            <input type="text" asp-for="ImgUrl" class="form-control" />
+                            <span asp-validation-for="ImgUrl" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="RegionId" class="form-label"> Region:</label>
+                            <select asp-for="RegionId" class="form-select">
+                                <option value="">Seleccione una Region</option>
+                                <option value="2">Kanto</option>
+                                <option value="1">Alola</option>
+                            </select>
+                            <span asp-validation-for="RegionId" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Type1id" class="form-label"> Tipos: </label>
+                            <select asp-for="Type1id" class="form-select">
+                                <option value="">Seleccione el/los tipos</option>
+                                <option value="1">Fuego</option>
+                                <option value="3">Veneno Fuego</option>
+                            </select>
+                            <span asp-validation-for="Type1id" class="text-danger"></span>
+                        </div>
+
+                        <input type="hidden" asp-for="Id"/>
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                        <a asp-controller="Pokedex" asp-action="Pokemones" class="btn btn-warning">Cancelar</a>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,50 @@
+﻿@model List<ServiceLayer.ViewModels.PokemonViewModel>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<div class="container-fluid" style="position: relative;">
+
+    <div class="row">
+        @if (Model == null || Model.Count == 0)
+        {
+            <div style="text-align: center;">
+                <h2>Lo sentimos, no hay pokemones agregados en <img style="height: 140px; width: 140px;" src="~/LogoPagina.png" /> aun.</h2>
+                <a class="btn btn-outline-success" style="text-align:center; margin:-20px 20px 20px 20px;" asp-controller="Pokedex" asp-action="Create"><h2>¡Agrega un Pokemon ya!</h2></a>
+            </div>
+            <img alt="Pika pika?" src="~/Pikachu.png" style="height:300px; width:300px; margin:-40px auto;" />
+        }
+        else
+        {
+            <div>
+                <h2 style="text-align: center; padding: 20px;">Lista de pokemones</h2>
+            </div>
+            @foreach (ServiceLayer.ViewModels.PokemonViewModel item in Model)
+            {
+
+                <div class="col-3" style="text-align: center;">
+                    <div class="card shadow-sm border-0">
+                        <img class="bd-placeholder-img card-img-top" src="@item.ImgUrl" />
+                        <div class="card-body">
+                            <h3>@item.Name</h3>
+
+                            <div>
+                                <div class="" style="text-align:center;">
+                                    <small class="text-muted">Region</small>
+                                </div>
+
+                                <div class="" style="text-align:center;">
+                                    <small class="text-muted">Tipos</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+
+    </div>
+</div>

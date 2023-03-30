@@ -1,0 +1,37 @@
+﻿@model ServiceLayer.ViewModels.SaveType1ViewModel
+@{
+    bool edac = Model.Id == 0 ? false : true;
+    ViewData["Title"] = "Guardar Tipo";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-black text-light">
+                    <h4>@(edac ? $"Editar Tipo: {Model.Name}": "Agregar un Tipo")</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-controller="Type" asp-action="@(edac ? "Edit" : "Create")">
+
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label"> Tipo Principal: </label>
+                            <input type="text" asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Opcional" class="form-label"> Tipo Secundario: </label>
+                            <input type="text" asp-for="Opcional" class="form-control" placeholder=" Opcional " />
+                        </div>
+
+                        <input type="hidden" asp-for="Id" />
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                        <a asp-controller="Type" asp-action="Types" class="btn btn-warning">Cancelar</a>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

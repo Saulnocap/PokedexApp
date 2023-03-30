@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\ServiceLayer\bin\Debug\net5.0\ServiceLayer.deps.json
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\ServiceLayer\bin\Debug\net5.0\ServiceLayer.dll
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\ServiceLayer\bin\Debug\net5.0\ref\ServiceLayer.dll
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\ServiceLayer\bin\Debug\net5.0\ServiceLayer.pdb
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\ServiceLayer\bin\Debug\net5.0\Database.dll
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\ServiceLayer\bin\Debug\net5.0\Database.pdb
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\ServiceLayer\obj\Debug\net5.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfo.cs
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.CopyComplete
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\ServiceLayer\obj\Debug\net5.0\ServiceLayer.dll
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\ServiceLayer\obj\Debug\net5.0\ref\ServiceLayer.dll
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\ServiceLayer\obj\Debug\net5.0\ServiceLayer.pdb

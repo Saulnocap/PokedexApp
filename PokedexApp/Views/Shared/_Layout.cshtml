@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RotomDex </title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="icon" type="image/png" href="~/favicon-32x32.png" />
+</head>
+<body>
+    <header>
+        <img src="~/Elbanner.jpg" style="position:absolute;" />
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-opacity-10 bg-black border-bottom box-shadow mb-3">
+            <div class="container" style="margin-right:120px;">
+                <div style="cursor: pointer;">
+                    <a asp-controller="Pokedex" asp-action="Index">
+                        <img class="RotomDexbrand" alt="RotomDexbrand" src="/LogoPagina.png" style="height: 140px; width: 140px; margin-top: -30px; margin-bottom: -20px;" /><img class="rotomdex" alt="RotomDex" src="https://images.wikidexcdn.net/mwuploads/wikidex/2/2e/latest/20171012163310/RotomDex_USUL.png" style="width: 80px; height: 80px; margin-bottom: -20px; margin-top: -40px; " />
+                    </a>
+                </div>
+
+                <div style="cursor: pointer;">
+                    <a asp-controller="Pokedex" asp-action="Pokemones">
+                        <img class="pokemones" alt="Pokemones" src="/Pokemones.png" style="height: 140px; width: 140px; margin-top: -20px; margin-bottom: -20px;" />
+                    </a>
+                </div>
+                <div style="cursor: pointer;">
+                    <a asp-controller="Region" asp-action="Regiones">
+                        <img class="regiones" alt="Regiones" src="/Regiones.png" style="height: 140px; width: 140px; margin-top: -20px; margin-bottom: -20px; " />
+                    </a>
+                </div>
+
+                <div style="cursor: pointer;">
+                    <a asp-controller="Type" asp-action="Types">
+                        <img class="tipos" alt="Tipos" src="/Tipos.png" style="height: 140px; width: 140px; margin-top: -60px; margin-top: -20px; margin-bottom: -20px; " />
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-">
+        <div class="container">
+            &copy; @DateTime.Now.Year - PokedexApp 
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

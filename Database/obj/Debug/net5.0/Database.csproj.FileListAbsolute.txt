@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\Database\bin\Debug\net5.0\Database.deps.json
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\Database\bin\Debug\net5.0\Database.runtimeconfig.json
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\Database\bin\Debug\net5.0\Database.runtimeconfig.dev.json
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\Database\bin\Debug\net5.0\Database.dll
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\Database\bin\Debug\net5.0\ref\Database.dll
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\Database\bin\Debug\net5.0\Database.pdb
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\Database\obj\Debug\net5.0\Database.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\Database\obj\Debug\net5.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\Database\obj\Debug\net5.0\Database.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\Database\obj\Debug\net5.0\Database.AssemblyInfo.cs
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\Database\obj\Debug\net5.0\Database.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\Database\obj\Debug\net5.0\Database.dll
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\Database\obj\Debug\net5.0\ref\Database.dll
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\Database\obj\Debug\net5.0\Database.pdb
+C:\Users\user\Desktop\ECRITORIO\ITLA\ITLA2\ITLA3\ITLA4\ITLA 5\Prog III\Proyectos\PokedexApp\Database\obj\Debug\net5.0\Database.genruntimeconfig.cache
